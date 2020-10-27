@@ -1,0 +1,94 @@
+{
+  "search_terms": [
+    {
+      "type": "other",
+      "name": "neurofibromatosis",
+      "search_term": "neurofibromatosis",
+      "db_refs": {}
+    }
+  ],
+  "dev_only": true,
+  "human_readable_name": "Neurofibromatosis",
+  "assembly": [
+    {
+      "function": "filter_no_hypothesis"
+    },
+    {
+      "function": "ground_statements",
+      "kwargs": {
+        "mode": "local",
+        "ungrounded_only": true
+      }
+    },
+    {
+      "function": "ground_statements",
+      "kwargs": {
+        "mode": "local",
+        "sources": [
+          "sparser"
+        ],
+        "ungrounded_only": false
+      }
+    },
+    {
+      "function": "map_sequence"
+    },
+    {
+      "function": "filter_eidos_ungrounded"
+    },
+    {
+      "function": "run_preassembly",
+      "kwargs": {
+        "return_toplevel": false
+      }
+    },
+    {
+      "function": "filter_human_only"
+    },
+    {
+      "function": "filter_by_curation",
+      "args": [
+        {
+          "function": "get_curations"
+        },
+        "any",
+        [
+          "correct",
+          "act_vs_amt",
+          "hypothesis"
+        ]
+      ],
+      "kwargs": {
+        "update_belief": true
+      }
+    },
+    {
+      "function": "filter_top_level"
+    }
+  ],
+  "test": {
+    "statement_checking": {
+      "max_path_length": 10,
+      "max_paths": 1
+    },
+    "mc_types": [
+      "signed_graph",
+      "unsigned_graph",
+      "pybel"
+    ],
+    "make_links": true,
+    "test_corpus": [
+      "large_corpus_tests"
+    ],
+    "default_test_corpus": "large_corpus_tests",
+    "filters": {
+      "large_corpus_tests": "filter_chem_mesh_go"
+    }
+  },
+  "description": "Neurofibromatosis knowledge network automatically assembled from relevant publications in PubMed.",
+  "make_tests": true,
+  "run_daily_update": true,
+  "ndex": {
+    "network": "f2af7563-1874-11eb-9eee-0ac135e8bacf"
+  }
+}
