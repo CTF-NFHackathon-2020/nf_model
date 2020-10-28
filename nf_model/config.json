@@ -73,8 +73,7 @@
     },
     "mc_types": [
       "signed_graph",
-      "unsigned_graph",
-      "pybel"
+      "unsigned_graph"
     ],
     "make_links": true,
     "test_corpus": [
