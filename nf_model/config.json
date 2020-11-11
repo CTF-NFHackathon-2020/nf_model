@@ -34,6 +34,9 @@
       "function": "map_grounding"
     },
     {
+      "function": "filter_grounded_only"
+    },
+    {
       "function": "map_sequence"
     },
     {
@@ -92,5 +95,7 @@
   "run_daily_update": true,
   "ndex": {
     "network": "f2af7563-1874-11eb-9eee-0ac135e8bacf"
-  }
+  },
+  "twitter": "nf",
+  "twitter_link": "https://twitter.com/nf_emmaa"
 }
