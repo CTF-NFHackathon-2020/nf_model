@@ -1,0 +1,60 @@
+{
+ "ndex": {
+  "network": "cc9f904f-4ffd-11e9-9f06-0ac135e8bacf"
+ },
+ "search_terms": [],
+ "human_readable_name": "Ras Model",
+ "assembly": [
+  {
+   "function": "map_grounding",
+   "kwargs": {
+    "grounding_map": {
+     "function": "load_custom_grounding_map",
+     "args": [
+      "rasmodel"
+     ]
+    },
+    "grounding_map_policy": "extend"
+   }
+  },
+  {
+   "function": "filter_grounded_only"
+  },
+  {
+   "function": "filter_human_only"
+  },
+  {
+   "function": "map_sequence"
+  },
+  {
+   "function": "run_preassembly",
+   "kwargs": {
+    "return_toplevel": false
+   }
+  },
+  {
+   "function": "filter_top_level"
+  }
+ ],
+ "test": {
+  "statement_checking": {
+   "max_path_length": 20,
+   "max_paths": 1
+  },
+  "mc_types": [
+   "pysb",
+   "pybel",
+   "signed_graph",
+   "unsigned_graph"
+  ],
+  "make_links": true,
+  "test_corpus": [
+   "large_corpus_tests",
+   "rasmachine_tests",
+   "nf_tests",
+   "skcm_tests"
+  ],
+  "default_test_corpus": "large_corpus_tests"
+ },
+ "description": "A human-curated model of Ras signaling defined in natural language."
+}
