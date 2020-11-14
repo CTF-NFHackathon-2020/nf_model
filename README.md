@@ -1,9 +1,12 @@
 # Self-updating and self-testing causal models to accelerate drug discovery in NF
 
-Author/Submitter: John A. Bachman
+Authors: John A. Bachman, Benjamin M. Gyori
 
-INDRA Lab Team: Benjamin M. Gyori, Diana Kolusheva, Patrick A. Greene, Klas
-Karis, Albert Steppi, Peter K. Sorger
+INDRA Lab Team: Diana Kolusheva, Patrick A. Greene, Klas Karis,
+Albert Steppi, Peter K. Sorger
+
+The INDRA Lab research group is part of the [Laboratory of Systems
+Pharmacology](https://hits.harvard.edu/) at Harvard Medical School.
 
 ## Website
 
@@ -63,11 +66,13 @@ connection to NF
 
 Instructions for running the following notebooks: *be sure to adjust these instructions as necessary! check out https://github.com/Sage-Bionetworks/nfhackathon2020/ for example containers and instructions*
 
-1. `docker pull <your dockerhub repo>/<this container>` command to pull the
-   image from the DockerHub
+1. `docker pull labsyspharm/nf_hack:latest`
 
-2. `docker run <your dockerhub repo>/<this container>` Run the docker image
-   from the master shell script
+2. `docker run -it -p 8880:8880 jupyter notebook --port 8880`
+
+Access the Jupyter notebook server using the link in the output, and navigate
+to  TODO
+
 
 ### Important Resources
 
@@ -78,7 +83,15 @@ Websites:
 
 Github Repositories
 
-* EMMAA:
+* EMMAA: https://github.com/indralab/emmaa
+* INDRA: https://github.com/sorgerlab/indra
+* INDRA DB: https://github.com/indralab/indra_db
+
+Documentation
+
+* EMMAA: https://emmaa.rtfd.io
+* INDRA: https://indra.rtfd.io
+* INDRA DB: https://indra-db.rtfd.io
 
 Docker Images
 
