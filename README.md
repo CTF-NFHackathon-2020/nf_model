@@ -24,7 +24,7 @@ have the potential to explain unresolved questions in their research.  To
 address this, we use text mining to read new scientific publications every day,
 update NF-specific causal models and use those models to make connections,
 generate hypotheses, and highlight novelty. Our submission consists of a
-platform, called EMMAA, (emmaa.indra.bio) and two NF causal models in the
+platform, called EMMAA, ([emmaa.indra.bio](https://emmaa.indra.bio)) and two NF causal models in the
 platform that together can help NF researchers capture knowledge and generate
 new therapeutic hypotheses. With the engagement of the NF community these
 resources have the potential to be a hub for the assembly of high-quality,
