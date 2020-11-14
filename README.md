@@ -24,11 +24,11 @@ have the potential to explain unresolved questions in their research.  To
 address this, we use text mining to read new scientific publications every day,
 update NF-specific causal models and use those models to make connections,
 generate hypotheses, and highlight novelty. Our submission consists of a
-platform, called EMMAA, ([emmaa.indra.bio](https://emmaa.indra.bio)) and two NF causal models in the
-platform that together can help NF researchers capture knowledge and generate
-new therapeutic hypotheses. With the engagement of the NF community these
-resources have the potential to be a hub for the assembly of high-quality,
-actionable knowledge that is both human- and machine-readable.
+platform, called EMMAA, ([emmaa.indra.bio](https://emmaa.indra.bio)) and two NF
+causal models in the platform that together can help NF researchers capture
+knowledge and generate new therapeutic hypotheses. With the engagement of the
+NF community these resources have the potential to be a hub for the assembly of
+high-quality, actionable knowledge that is both human- and machine-readable.
 
 ## Methods
 
@@ -117,7 +117,7 @@ of newly published information. Finally both models can be used to explain
 large, systematic datasets such as drug screening assays: we are currently
 extending the NF models to explain the NF drug screening data as we have previously done for other models (see https://emmaa.indra.bio/dashboard/covid19?tab=tests&test_corpus=covid19_curated_tests).
 
-![Assembling knowledge via a cycle of feedback](https://github.com/indralab/nf_model/blob/main/Figure.png)
+![Assembling knowledge via a cycle of feedback](https://github.com/indralab/nf_model/blob/main/Figure.png =800px)
 
 ### 1. What additional data would you like to have?
 
