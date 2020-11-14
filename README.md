@@ -172,7 +172,7 @@ EMMAA.
 
 1. `docker pull labsyspharm/nf_hack:latest`
 
-2. `docker run -it -p 8880:8880 nf_hack nf_model/run_script.sh`
+2. `docker run -it -p 8880:8880 labsyspharm/nf_hack nf_model/run_script.sh`
 
 Navigate to `nf_model/BuildingAndTestingNFModels.ipynb`.
 
