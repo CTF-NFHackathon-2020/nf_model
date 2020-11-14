@@ -117,7 +117,7 @@ of newly published information. Finally both models can be used to explain
 large, systematic datasets such as drug screening assays: we are currently
 extending the NF models to explain the NF drug screening data as we have previously done for other models (see https://emmaa.indra.bio/dashboard/covid19?tab=tests&test_corpus=covid19_curated_tests).
 
-![Assembling knowledge via a cycle of feedback](https://github.com/indralab/nf_model/blob/main/Figure.png =800px)
+![Assembling knowledge via a cycle of feedback](https://github.com/indralab/nf_model/blob/main/Figure.png)
 
 ### 1. What additional data would you like to have?
 
