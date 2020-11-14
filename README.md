@@ -30,21 +30,6 @@ new therapeutic hypotheses. With the engagement of the NF community these
 resources have the potential to be a hub for the assembly of high-quality,
 actionable knowledge that is both human- and machine-readable.
 
-## Introduction
-
-The scientific literature is growing exponentially, making it increasingly difficult for researchers to monitor new discoveries and identify the ones that
-have the potential to explain unresolved questions in their field. This is
-especially true for rare diseases like NF, where relevant discoveries may be
-come from many subdiscipldescribed in the context of biology with no obvious
-connection to NF 
-
-The purpose of our project is to 1) help scientists monitor new discoveries in
-the NF literature, 2) enlist crowd-sourcing curation effort to improve the NF
-knowledge network and biomedical text mining more broadly, 3) build a highly
-detailed mechanistic model of NF-specific mechanisms, and 4) highlight
-surprising new causal/experimental findings in the NF literature by showing
-when they can’t currently be explained by the established pathway knowledge.
-
 ## Methods
 
 For our submission we have built a web application called the Ecosystem of
