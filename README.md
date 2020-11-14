@@ -24,7 +24,7 @@ have the potential to explain unresolved questions in their research.  To
 address this, we use text mining to read new scientific publications every day,
 update NF-specific causal models and use those models to make connections,
 generate hypotheses, and highlight novelty. Our submission consists of a
-platform, called EMMAA, ([emmaa.indra.bio](https://emmaa.indra.bio)) and two NF
+platform, called EMMAA ([emmaa.indra.bio](https://emmaa.indra.bio)), and two NF
 causal models in the platform that together can help NF researchers capture
 knowledge and generate new therapeutic hypotheses. With the engagement of the
 NF community these resources have the potential to be a hub for the assembly of
@@ -39,12 +39,12 @@ mining, and 2) a curated mechanistic model written in simple English.
 
 In putting together our submission, we realized that it was not feasible for us
 to encapsulate the EMMAA web service or full back-end pipeline in a public
-Docker image due to its requirements of privileged access to databases, S3
-buckets, and other resources hosted on AWS. However, *all* of the code used is
-in publicly accessible repositories with open source licenses and Docker images
-(see below). To address this, our submission includes a Jupyter notebook we
-used to initialize the two models along with an illustration of how the curated
-model can be used to generate explanations of the findings in the
+Docker image due to its current requirements of privileged access to databases,
+S3 buckets, and other resources hosted on AWS. However, *all* of the code used
+is in publicly accessible repositories with open source licenses and Docker
+images (see below). To address this, our submission includes a Jupyter notebook
+we used to initialize the two models along with an illustration of how the
+curated model can be used to generate explanations of the findings in the
 literature-derived model. We also describe the architecture of EMMAA and the
 INDRA DB below, starting with the process for assembling the self-updating
 literature-derived model, which can be browsed at
@@ -54,7 +54,7 @@ Every day, we obtain all newly published, legally mineable articles from
 PubMed, PubMed Central, Elsevier, and other sources (full texts when available)
 and we run machine reading on AWS Batch using a docker image containing several
 text mining systems. This is done using a software platform we’ve developed
-call INDRA (see sources at https://github.com/sorgerlab/indra and
+called INDRA (see sources at https://github.com/sorgerlab/indra and
 https://github.com/indralab/indra_db_docker).
 
 Results are stored in the INDRA Database, a PostGres DB hosted on AWS RDS. The
@@ -105,8 +105,8 @@ In our opinion the benefit of these tools will be fully realized when they are
 used together, with the engagement of the scientific community (Figure).
 Findings from new publications are used to extend the Neurofibromatosis
 literature-derived model (left), and are checked against the manually curated
-Ras model, which is intended to represent the best current mechanistic
-understanding of domain experts. If the the new finding can be explained by the
+Ras model (right), which is intended to represent the best current mechanistic
+understanding of domain experts. If the new finding can be explained by the
 current mechanistic model, it can be seen as an extension of existing
 knowledge. If it cannot be explained by the model, but the underlying causal
 explanation is well-understood, this drives the extension of the curated model.
@@ -122,7 +122,7 @@ extending the NF models to explain the NF drug screening data as we have previou
 ### 1. What additional data would you like to have?
 
 Our key need is to engage the NF research community to better understand the
-key bottlenecks in the discovery process, and to help capture information to makae the system perform better.
+key bottlenecks in the discovery process, and to help capture information to make the system perform better.
 
 In terms of data, there is a key need for crowdsourced curation data to improve
 text mining.  The type of natural language processing that we depend on, called
@@ -151,7 +151,7 @@ curation;
 
 ### *3. What additional tools or pipelines will be needed for those steps?*
 
-Most of these steps are human- rather than tool-dependent. 
+These steps are primarily human- rather than tool-dependent. 
 
 ### *4. What skills would additional collaborators ideally have?*
 
