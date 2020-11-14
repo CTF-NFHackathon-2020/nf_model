@@ -174,7 +174,7 @@ EMMAA.
 
 2. `docker run -it -p 8880:8880 nf_hack nf_model/run_script.sh`
 
-Navigate to `nf_model/BuildAndTestingNFModels.ipynb`.
+Navigate to `nf_model/BuildingAndTestingNFModels.ipynb`.
 
 ### Important Resources
 
