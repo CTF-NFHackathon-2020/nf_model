@@ -172,7 +172,9 @@ EMMAA.
 
 1. `docker pull labsyspharm/nf_hack:latest`
 
-2. `docker run -it -p 8880:8880 nf_hack jupyter notebook --ip=0.0.0.0 --port=8880 --allow-root`
+2. `docker run -it -p 8880:8880 nf_hack nf_model/run_script.sh`
+
+Navigate to `nf_model/BuildAndTestingNFModels.ipynb`.
 
 ### Important Resources
 
