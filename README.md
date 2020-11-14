@@ -160,7 +160,7 @@ the unresolved questions in NF would be very helpful. In addition, developers
 and designers who can help us act on feedback to make the system more seamless
 and streamlined for users.
 
-## Reproduction: *How to reproduce the findings!*
+## Reproduction
 
 As noted in Methods, the full application stack including the INDRA DB and
 EMMAA service are not immediately and independently reproducible from our
