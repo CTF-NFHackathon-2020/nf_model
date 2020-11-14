@@ -176,6 +176,9 @@ EMMAA.
 
 Navigate to `nf_model/BuildingAndTestingNFModels.ipynb`.
 
+To prevent kernel crashes, make sure that Docker has a memory limit of 15gb or
+more if re-running the steps in the Jupyter Notebook.
+
 ### Important Resources
 
 Websites:
