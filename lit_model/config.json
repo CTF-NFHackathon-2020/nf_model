@@ -66,10 +66,10 @@
       ],
       "kwargs": {
         "update_belief": true
-      },
-      {
-       "function": "filter_top_level"
       }
+    },
+    {
+      "function": "filter_top_level"
     }
   ],
   "test": {
